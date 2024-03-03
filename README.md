@@ -1,5 +1,5 @@
 - 👋 Hi, my name is Adrian Halnan
-- 👀 I’m interested in Digital Society | Accessibility | Education | Learning
+- 👀 I’m interested in Digital Society | Accessibility | Education | Learning | Dyslexia | Dyscalculia
 - 🌱 I’m currently revisiting / learning HTML | CSS |  
 - You can reach me on Mastodon via https://oldbytes.space/@ahalnan
 
