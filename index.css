@@ -1,19 +1,72 @@
-* {
-  font-family: Helvetica, Arial, sans-serif;
+/* Reset some basic elements */
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-
-h1 {
-  color: SeaGreen;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
 }
 
-
-p, 
-li {
-  font-size: 18px;
-}
-
-
+/* Accessibility: Ensure sufficient contrast */
 a {
-  text-decoration: none;
+    color: #0066cc;
+}
+
+a:hover, a:focus {
+    color: #004999;
+}
+
+/* Accessibility: Highlight focus for keyboard-only users */
+a:focus, input:focus, button:focus {
+    outline: 2px solid #004999;
+}
+
+/* Basic blog layout styles */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #50a3a2;
+    padding: 20px;
+    color: white;
+}
+
+header h1 {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    padding-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+article {
+    clear: both;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+footer {
+    background: #50a3a2;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
 }
